@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tik-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">TIK-TAC-TOE</h1>
+        
+        <div class="hiddenScreen">
+            <h1 id="outputStatus"></h1>
+            <button id="restart">Neues Spiel</button>
+        </div>
+
+        <main class="field">
+            <div class="row">
+                <button id="field_1"></button>
+                <button id="field_2"></button>
+                <button id="field_3"></button>
+            </div>
+            <div class="row">
+                <button id="field_4"></button>
+                <button id="field_5"></button>
+                <button id="field_6"></button>
+            </div>
+            <div class="row">
+                <button id="field_7"></button>
+                <button id="field_8"></button>
+                <button id="field_9"></button>
+            </div>
+        </main>
+        <div class="choose">
+            <label for="choose">Wer beginnt?</label>
+            <button id="x-value">X</button>
+            <button id="o-value">O</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

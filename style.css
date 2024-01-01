@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family:sans-serif;
+    color: white;
+}
+#title{
+    font-size: 2rem;
+    letter-spacing: 1.3vw;
+}
+select{
+    color: black;
+}
+option{
+    color: black;
+}
+.container{
+    height: 100vh;
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.field{
+    background-color: rgb(165, 165, 165);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.row button{
+    padding: 2vh;
+    width: 9vw;
+    height: 9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-weight: bolder;
+    background-color: rgb(41, 41, 41);
+    font-size: 5vw;
+}
+.row button:active{
+    background-color: rgb(54, 54, 54);
+}
+#restart{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+#restart:hover{
+    background-color: gray;
+}
+#restart:active{
+    background-color: rgb(54, 54, 54);
+}
+.hiddenScreen{
+    background-color: rgb(255, 255, 255);
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    width: 50vw;
+    height: 25vh;
+    align-items: center; 
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.hiddenScreen h1, .hiddenScreen button{
+    color: black;
+}
+.choose{
+    height: 1vh;
+}
+#x-value {
+    padding: 2px 4px;
+    background-color: rgb(41, 41, 41);
+    border: none;
+    transition: color 0.4s, border-bottom 0.1s ease-in-out;
+    border-bottom: 2px solid rgb(41, 41, 41);
+}
+#o-value {
+    padding: 2px 4px;
+    background-color: rgb(41, 41, 41);
+    border: none;
+    transition: color 0.4s, border-bottom 0.1s ease-in-out;
+    border-bottom: 2px solid rgb(41, 41, 41);
+}
+#x-value:hover{
+    color: gray; 
+    border-bottom: 2px solid gray;
+}
+#o-value:hover{
+    color: gray; 
+    border-bottom: 2px solid gray;
+}
