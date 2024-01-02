@@ -10,8 +10,8 @@ const field_7 = document.querySelector("#field_7");
 const field_8 = document.querySelector("#field_8");
 const field_9 = document.querySelector("#field_9");
 
-let colorX = "red";
-let colorO = "green";
+let colorX = "blue";
+let colorO = "red";
 
 let field_1_value = 0;
 let field_2_value = 0;
