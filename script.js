@@ -31,7 +31,7 @@ field_8.addEventListener("click", function() {setSymbol(8);});
 field_9.addEventListener("click", function() {setSymbol(9);});
 
 const gameEnd = document.querySelector(".hiddenScreen");
-const gameEndStatus = document.querySelector("#outputStatus")
+const gameEndStatus = document.querySelector("#outputStatus");
 
 let startValue=1;
 let gameCounter=0;
@@ -221,7 +221,7 @@ function setSymbol(fieldNumber) {
     }
     if (!(startValue===0)) {
         gameStarted=true;
-        gameCounter++;
+        gameCounter+=1;
         checkWin();
     }
 }
