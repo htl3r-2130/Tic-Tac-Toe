@@ -108,3 +108,19 @@ option{
     color: gray; 
     border-bottom: 2px solid gray;
 }
+footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+footer span{
+    font-size: 1rem;
+}
+footer img {
+    width: 30px;
+}
